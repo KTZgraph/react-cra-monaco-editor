@@ -1,0 +1,28 @@
+.editor-validation {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.editor-validation__item {
+  // display: block;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.editor-validation__line {
+  font-weight: bold;
+  color: gray;
+  padding-right: 3px;
+}
+
+.editor-validation__message {
+  font-size: 1.2rem;
+  color: black;
+}
